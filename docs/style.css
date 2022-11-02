@@ -142,7 +142,12 @@ body {
         transform: rotate(720deg);
     }
 }
-
+@media (min-width:0px) and (max-width:550px){
+    #ley{
+        width: 100%;
+    }
+    
+}
 #bedAns {
     color: rgb(128, 18, 18);
 }
