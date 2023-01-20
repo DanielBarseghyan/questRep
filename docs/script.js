@@ -29,9 +29,9 @@ let questArr = [
         triger: false
     },
     {
-        question: `let obj = {};       
-                    let obj2 = {};    
-                   obj=obj2`,
+        question: `let obj = {}; <br>      
+                    let obj2 = {};  <br>  
+                   obj==obj2`,
         ansuer: "no",
         triger: false
     },
@@ -41,6 +41,7 @@ let questArr = [
         triger: false
     }
 ]
+alert("Ansuer 'yes' or 'no' ")
 let flag = 0,
     redF = 50,
     greenF = 50;
